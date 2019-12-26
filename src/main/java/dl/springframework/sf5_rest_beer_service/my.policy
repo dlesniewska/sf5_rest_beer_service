@@ -1,0 +1,5 @@
+grant {
+     java.lang.RuntimePermission
+     java.security.AccessControlException
+     accessClassInPackage.jdk.internal.misc"
+};
