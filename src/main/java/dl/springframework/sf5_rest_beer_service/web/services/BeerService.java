@@ -1,10 +1,16 @@
 package dl.springframework.sf5_rest_beer_service.web.services;
 
 import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
+import dl.springframework.sf5_rest_beer_service.web.model.BeerPagedList;
+import dl.springframework.sf5_rest_beer_service.web.model.BeerStyleEnum;
+import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;
 
 public interface BeerService {
+
+    BeerPagedList listBeers(String beerName, BeerStyleEnum beerStyle, PageRequest pageRequest);
+
     BeerDto getById(UUID beerId);
 
     BeerDto saveNewBeer(BeerDto beerDto);
