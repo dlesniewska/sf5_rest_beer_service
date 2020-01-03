@@ -9,7 +9,7 @@ public abstract class BeerMapperDecorator implements BeerMapper {
     private BeerInventoryService beerInventoryService;
     private BeerMapper mapper;
 
-    @Autowired //mapstruct problem -> must use autowired specifically
+    @Autowired
     public void setBeerInventoryService(BeerInventoryService beerInventoryService) {
         this.beerInventoryService = beerInventoryService;
     }
@@ -21,6 +21,11 @@ public abstract class BeerMapperDecorator implements BeerMapper {
 
     @Override
     public BeerDto beerToBeerDto(Beer beer) {
+        return mapper.beerToBeerDto(beer);
+    }
+
+    @Override
+    public BeerDto beerToBeerDtoWithInventory(Beer beer) {
         BeerDto dto = mapper.beerToBeerDto(beer);
         dto.setQuantityOnHand(beerInventoryService.getOnhandInventory(beer.getId()));
         return dto;
