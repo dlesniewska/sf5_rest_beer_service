@@ -1,6 +1,5 @@
 package dl.springframework.sf5_rest_beer_service.web.services.inventory;
 
-import dl.springframework.sf5_rest_beer_service.bootstrap.BeerLoader;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -21,9 +20,9 @@ class BeerInventoryServiceRestTemplateImplTest {
 
     @Test
     void getOnhandInventory() {
-        Integer qoh = beerInventoryService.getOnhandInventory(BeerLoader.BEER_1_UUID);
-
-        System.out.println(qoh);
+//        Integer qoh = beerInventoryService.getOnhandInventory(BeerLoader.BEER_1_UUID);
+//
+//        System.out.println(qoh);
 
     }
 }
