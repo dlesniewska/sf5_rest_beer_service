@@ -1,9 +1,9 @@
 package dl.springframework.sf5_rest_beer_service.web.controller;
 
+import dl.springframework.sf5_rest_beer_service.services.BeerService;
 import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
 import dl.springframework.sf5_rest_beer_service.web.model.BeerPagedList;
 import dl.springframework.sf5_rest_beer_service.web.model.BeerStyleEnum;
-import dl.springframework.sf5_rest_beer_service.web.services.BeerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;

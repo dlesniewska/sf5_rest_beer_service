@@ -1,4 +1,4 @@
-package dl.springframework.sf5_rest_beer_service.web.services;
+package dl.springframework.sf5_rest_beer_service.services;
 
 import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
 import dl.springframework.sf5_rest_beer_service.web.model.BeerPagedList;

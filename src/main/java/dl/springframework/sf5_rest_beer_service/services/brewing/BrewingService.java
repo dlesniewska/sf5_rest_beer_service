@@ -1,11 +1,11 @@
-package dl.springframework.sf5_rest_beer_service.web.services;
+package dl.springframework.sf5_rest_beer_service.services.brewing;
 
 import dl.springframework.sf5_rest_beer_service.config.JmsConfig;
 import dl.springframework.sf5_rest_beer_service.domain.Beer;
 import dl.springframework.sf5_rest_beer_service.events.BrewBeerEvent;
 import dl.springframework.sf5_rest_beer_service.repositories.BeerRepository;
+import dl.springframework.sf5_rest_beer_service.services.inventory.BeerInventoryService;
 import dl.springframework.sf5_rest_beer_service.web.mappers.BeerMapper;
-import dl.springframework.sf5_rest_beer_service.web.services.inventory.BeerInventoryService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.core.JmsTemplate;

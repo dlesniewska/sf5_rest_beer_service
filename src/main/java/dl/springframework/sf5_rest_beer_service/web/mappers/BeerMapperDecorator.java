@@ -1,8 +1,8 @@
 package dl.springframework.sf5_rest_beer_service.web.mappers;
 
 import dl.springframework.sf5_rest_beer_service.domain.Beer;
+import dl.springframework.sf5_rest_beer_service.services.inventory.BeerInventoryService;
 import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
-import dl.springframework.sf5_rest_beer_service.web.services.inventory.BeerInventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public abstract class BeerMapperDecorator implements BeerMapper {

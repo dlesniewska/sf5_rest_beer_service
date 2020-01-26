@@ -1,4 +1,4 @@
-package dl.springframework.sf5_rest_beer_service.web.services.inventory;
+package dl.springframework.sf5_rest_beer_service.services.inventory;
 
 import java.util.UUID;
 

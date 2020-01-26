@@ -2,9 +2,9 @@ package dl.springframework.sf5_rest_beer_service.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import dl.springframework.sf5_rest_beer_service.bootstrap.BeerLoader;
+import dl.springframework.sf5_rest_beer_service.services.BeerService;
 import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
 import dl.springframework.sf5_rest_beer_service.web.model.BeerStyleEnum;
-import dl.springframework.sf5_rest_beer_service.web.services.BeerService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
