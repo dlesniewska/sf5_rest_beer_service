@@ -1,7 +1,7 @@
 package dl.springframework.sf5_rest_beer_service.web.mappers;
 
 import dl.springframework.sf5_rest_beer_service.domain.Beer;
-import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
+import guru.sfg.brewery.model.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

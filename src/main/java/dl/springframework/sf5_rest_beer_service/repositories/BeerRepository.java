@@ -1,7 +1,7 @@
 package dl.springframework.sf5_rest_beer_service.repositories;
 
 import dl.springframework.sf5_rest_beer_service.domain.Beer;
-import dl.springframework.sf5_rest_beer_service.web.model.BeerStyleEnum;
+import guru.sfg.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

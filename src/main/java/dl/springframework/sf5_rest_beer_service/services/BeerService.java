@@ -1,8 +1,8 @@
 package dl.springframework.sf5_rest_beer_service.services;
 
-import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
-import dl.springframework.sf5_rest_beer_service.web.model.BeerPagedList;
-import dl.springframework.sf5_rest_beer_service.web.model.BeerStyleEnum;
+import guru.sfg.brewery.model.BeerDto;
+import guru.sfg.brewery.model.BeerPagedList;
+import guru.sfg.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;

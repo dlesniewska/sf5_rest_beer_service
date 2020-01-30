@@ -5,7 +5,7 @@ import dl.springframework.sf5_rest_beer_service.domain.Beer;
 import dl.springframework.sf5_rest_beer_service.events.BrewBeerEvent;
 import dl.springframework.sf5_rest_beer_service.events.NewInventoryEvent;
 import dl.springframework.sf5_rest_beer_service.repositories.BeerRepository;
-import dl.springframework.sf5_rest_beer_service.web.model.BeerDto;
+import guru.sfg.brewery.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;

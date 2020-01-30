@@ -1,4 +1,4 @@
-package dl.springframework.sf5_rest_beer_service.web.model;
+package guru.sfg.brewery.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

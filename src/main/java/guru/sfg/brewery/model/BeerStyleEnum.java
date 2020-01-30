@@ -1,4 +1,4 @@
-package dl.springframework.sf5_rest_beer_service.web.model;
+package guru.sfg.brewery.model;
 
 public enum BeerStyleEnum {
     LAGER, PILSNER, STOUT, GOSE, PORTER, ALE, WHEAT, IPA, PALE_ALE, SAISON
